@@ -1,0 +1,20 @@
+.mode-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .fa-moon {
+    color: #8f7a7a;
+    font-size: 24px;
+  }
+  
+  .dark-mode {
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .dark-mode nav,body{
+    color: #fff9f9; /* Change this to the desired font color for dark mode */
+  }
+  

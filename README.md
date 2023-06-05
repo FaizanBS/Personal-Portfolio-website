@@ -2,7 +2,8 @@
 
 This repository contains the code for my personal portfolio website, showcasing my skills as a graphic designer and web developer. The website is built using HTML, CSS, and JavaScript.
 
-## Table of Contents
+## Table of Contents![fafizanarif](https://github.com/FaizanBS/Personal-Portfolio-website/assets/114131372/d55006ad-fa6f-438d-8df3-bfa4bba6b1e7)
+
 
 - [Description](#description)
 - [Features](#features)

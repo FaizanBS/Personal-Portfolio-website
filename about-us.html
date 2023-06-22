@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+<meta name="description" content="This is about my site that is faizanarif gfx  Faizan arif a graphic designer
+Hope you love this and find a best graphic designer for your projects ">
+  <title>About Us</title>
+  <style>
+    /* Reset default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Common styles */
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+
+    /* Flexbox layout */
+    .flex-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .flex-item {
+      flex-basis: 30%;
+      margin-bottom: 20px;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+    }
+
+    /* Media queries for responsiveness */
+    @media screen and (max-width: 768px) {
+      .flex-item {
+        flex-basis: 45%;
+      }
+    }
+
+    @media screen and (max-width: 576px) {
+      .flex-item {
+        flex-basis: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <a href="/">  <img src="/img/favicon.png" alt=""> </a>
+            <span class="ml-3 text-xl logo">FaizanArif Gfx</span>
+        </a>
+        <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+            <a href="/index.html" class="mr-5 hover:text-gray-900">Home</a>
+            <a href="/toolscreatedusinghtmlcssjs.html" class="mr-5 hover:text-gray-900">Tools Created By me</a>
+            <a href="contactus.html" class="mr-5 hover:text-gray-900">Contact Us</a>
+            <a href="/Myprojects.html" class="mr-5 hover:text-gray-900">My Projects In Detail</a>
+            <a href="/Ourprivacypolicy.html" class="mr-5 hover:text-gray-900">Privacy Policy</a>
+            <a href="/about-us.html" class="mr-5 hover:text-gray-900">About Us</a>
+            <a href="/disclaimer.html" class="mr-5 hover:text-gray-900">Disclaimer</a>
+
+            <button id="mode-toggle" class="mode-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+
+
+
+        </nav>
+        <a href="/index.html">
+        <button
+            class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Portfolio
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+        </button>
+    </a>
+    </div>
+</header>
+  <div class="container">
+    <h1>About Us</h1>
+    <div class="flex-container">
+      <div class="flex-item">
+        <h2>Our Mission</h2>
+        <p>At FaizanArifGFX, we strive to deliver exceptional graphic design solutions tailored to meet your unique needs. We are passionate about translating your vision into captivating visual experiences that leave a lasting impression.</p>
+      </div>
+      <div class="flex-item">
+        <h2>Our Vision</h2>
+        <p>Our vision is to be a trusted partner for individuals and businesses seeking innovative graphic design services. We aim to push creative boundaries, embrace the latest design trends, and make a positive impact through our visually stunning creations.</p>
+      </div>
+      <div class="flex-item">
+        <h2>Our Values</h2>
+        <p>At FaizanArifGFX, we are committed to excellence, integrity, and client satisfaction. We value open communication, collaboration, and attention to detail. Our goal is to exceed your expectations and provide designs that not only look amazing but also fulfill your objectives.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
